@@ -12,7 +12,7 @@ Este projeto aborda o desafio da adesão medicamentosa em idosos, propondo um si
 ## Tecnologias Utilizadas
 - **Web**: Plataforma para cadastro e gerenciamento centralizado.
 - **Hardware**:
-  - ESP32 para controle de dispositivos.
+  - ESP8266 para controle de dispositivos.
   - Amplificador de áudio e alto-falantes.
   - Lâmpada inteligente integrada ao hub Zigbee.
 - **Protocolo Zigbee**: Comunicação de baixa energia e alta confiabilidade.
@@ -21,7 +21,7 @@ Este projeto aborda o desafio da adesão medicamentosa em idosos, propondo um si
 
 ## Arquitetura do Sistema
 1. **Sistema Web**: Gerencia informações de idosos e medicamentos.
-2. **ESP32**: Controla dispositivos de áudio e luz.
+2. **ESP8266**: Controla dispositivos de áudio e luz.
 3. **Hub Zigbee**: Conecta dispositivos à Alexa.
 4. **Assistente Alexa**: Interação com lâmpadas inteligentes.
 
